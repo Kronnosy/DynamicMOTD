@@ -1,0 +1,42 @@
+##
+#  oooooooooo.                                                        o8o            ooo        ooooo   .oooooo.   ooooooooooooo oooooooooo.
+#  `888'   `Y8b                                                       `"'            `88.       .888'  d8P'  `Y8b  8'   888   `8 `888'   `Y8b
+#   888      888 oooo    ooo ooo. .oo.    .oooo.   ooo. .oo.  .oo.   oooo   .ooooo.   888b     d'888  888      888      888       888      888
+#   888      888  `88.  .8'  `888P"Y88b  `P  )88b  `888P"Y88bP"Y88b  `888  d88' `"Y8  8 Y88. .P  888  888      888      888       888      888
+#   888      888   `88..8'    888   888   .oP"888   888   888   888   888  888        8  `888'   888  888      888      888       888      888
+#   888     d88'    `888'     888   888  d8(  888   888   888   888   888  888   .o8  8    Y     888  `88b    d88'      888       888     d88'
+#  o888bood8P'       .8'     o888o o888o `Y888""8o o888o o888o o888o o888o `Y8bod8P' o8o        o888o  `Y8bood8P'      o888o     o888bood8P'
+#                .o..P'
+#                `Y8P'
+##
+
+##
+# MOTD System Configuration:
+#
+# This section controls the settings for the Message of the Day (MOTD) system.
+# If 'enabled' is true, the server will update and display MOTD messages
+# in sequence with the specified delay.
+##
+enabled: true
+
+##
+# MOTD Change Delay:
+#
+# This section defines the delay (in milliseconds) between each MOTD message display.
+# A value of '100' means that there will be a 100-millisecond pause between messages.
+##
+delay: 100
+
+##
+# List of MOTD Messages:
+#
+# This section contains the list of MOTD messages that will be displayed to players.
+# Each message can have a color code prefix (e.g., §1 for blue) to customize its appearance.
+# You can use the placeholders {ONLINE_PLAYERS}, {MAX_PLAYERS} and {VERSION}
+# in your messages to dynamically show relevant information to players.
+##
+motds:
+  - "§1MOTD 1"
+  - "§2MOTD 2"
+  - "§3MOTD 3"
+  - "§4MOTD 4"
